@@ -1,7 +1,24 @@
 aid: vitara
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vitara.png
 name: Vitara
-description: Vitara is a company surfaced as a portfolio company of khosla-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vitara (Vitara Biomedical) is a Philadelphia-based medical technology company developing
+  EXTEND, an investigational neonatal support platform that surrounds extremely premature newborns in
+  a fluid-filled, fetal-physiology-modeled environment for their first 28 days, delaying the stress of
+  early air exposure so vital organs can continue to develop. The company aims to improve survival and
+  reduce long-term complications for infants born as early as 22 weeks gestation. Surfaced in the API
+  Evangelist network as a Khosla Ventures portfolio company; Vitara publishes no public API, developer
+  portal, or documentation, and its technology has not received U.S. FDA market clearance.
 url: https://raw.githubusercontent.com/api-evangelist/vitara/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Technology
+- Medical Device
+- Neonatal Care
+- Healthcare
+- Biotechnology
+- Premature Birth
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vitara-domain-security.yml
 - type: Website
   url: https://www.vitara.com/
+- type: PrivacyPolicy
+  url: https://www.vitara.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

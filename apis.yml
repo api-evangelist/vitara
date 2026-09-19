@@ -23,13 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vitara.png
 name: Vitara
-description: Vitara (Vitara Biomedical) is a Philadelphia-based medical technology company developing
-  EXTEND, an investigational neonatal support platform that surrounds extremely premature newborns in
-  a fluid-filled, fetal-physiology-modeled environment for their first 28 days, delaying the stress of
-  early air exposure so vital organs can continue to develop. The company aims to improve survival and
-  reduce long-term complications for infants born as early as 22 weeks gestation. Surfaced in the API
-  Evangelist network as a Khosla Ventures portfolio company; Vitara publishes no public API, developer
-  portal, or documentation, and its technology has not received U.S. FDA market clearance.
+description: Vitara (Vitara Biomedical) is a Philadelphia-based medical technology company developing EXTEND, an
+  investigational neonatal support platform that surrounds extremely premature newborns in a fluid-filled, fetal-physiology-modeled
+  environment for their first 28 days, delaying the stress of early air exposure so vital organs can continue to
+  develop. The company aims to improve survival and reduce long-term complications for infants born as early as
+  22 weeks gestation. Surfaced in the API Evangelist network as a Khosla Ventures portfolio company; Vitara publishes
+  no public API, developer portal, or documentation, and its technology has not received U.S. FDA market clearance.
 url: https://raw.githubusercontent.com/api-evangelist/vitara/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -41,6 +40,14 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
+- Company
+- Medical Technology
+- Medical Devices
+- Neonatal Care
+- Healthcare
+- Biotechnology
+- Premature Birth
+tags_raw:
 - Company
 - Medical Technology
 - Medical Device
@@ -61,6 +68,8 @@ common:
   url: https://www.vitara.com/
 - type: PrivacyPolicy
   url: https://www.vitara.com/privacy
+- type: Website
+  url: https://vitara.com
 x-enrichment:
   date: '2026-07-21'
   status: minimal
